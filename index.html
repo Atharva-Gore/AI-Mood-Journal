@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🧠 AI Mood Journal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 AI Mood Journal</h1>
+    <p class="date">Date: <span id="currentDate"></span></p>
+
+    <textarea id="journalInput" placeholder="Write about your day..."></textarea>
+    <button id="analyzeBtn">Analyze Mood</button>
+
+    <div id="result" class="hidden">
+      <h2>Your Mood: <span id="mood"></span></h2>
+      <p id="advice"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
